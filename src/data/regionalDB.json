@@ -1,0 +1,97 @@
+{
+  "hospitals": [
+    {
+      "id": "h1",
+      "name": "S.N. Medical College & Hospital",
+      "location": "Moti Katra, Agra",
+      "distance": "1.2 km",
+      "type": "Govt. Hospital - 24/7",
+      "rating": 4.2
+    },
+    {
+      "id": "h2",
+      "name": "Pushpanjali Hospital & Research Centre",
+      "location": "Delhi Gate, Agra",
+      "distance": "3.5 km",
+      "type": "Multi-Specialty",
+      "rating": 4.8
+    },
+    {
+      "id": "h3",
+      "name": "Shanti Mangalick Hospital",
+      "location": "Fatehabad Road, Agra",
+      "distance": "5.1 km",
+      "type": "Multi-Specialty",
+      "rating": 4.5
+    },
+    {
+      "id": "h4",
+      "name": "District Hospital Firozabad",
+      "location": "Jalesar Road, Firozabad",
+      "distance": "2.0 km",
+      "type": "Govt. Hospital",
+      "rating": 3.9
+    },
+    {
+      "id": "h5",
+      "name": "Upadhyay Hospital",
+      "location": "Suhag Nagar, Firozabad",
+      "distance": "4.2 km",
+      "type": "Private Clinic",
+      "rating": 4.4
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Dr. Ravi Sharma",
+      "specialty": "Cardiologist",
+      "hospital": "Pushpanjali Hospital, Agra",
+      "experience": "15 Years",
+      "rating": 4.9,
+      "fee": 800,
+      "availableNow": true
+    },
+    {
+      "id": "d2",
+      "name": "Dr. Neha Gupta",
+      "specialty": "Pediatrician",
+      "hospital": "S.N. Medical College, Agra",
+      "experience": "8 Years",
+      "rating": 4.6,
+      "fee": 500,
+      "availableNow": true
+    },
+    {
+      "id": "d3",
+      "name": "Dr. Amit Bansal",
+      "specialty": "General Physician",
+      "hospital": "Upadhyay Hospital, Firozabad",
+      "experience": "12 Years",
+      "rating": 4.7,
+      "fee": 400,
+      "availableNow": true
+    },
+    {
+      "id": "d4",
+      "name": "Dr. Sunil Yadav",
+      "specialty": "Orthopedic",
+      "hospital": "District Hospital, Firozabad",
+      "experience": "20 Years",
+      "rating": 4.3,
+      "fee": 300,
+      "availableNow": false
+    },
+    {
+      "id": "v1",
+      "name": "Dr. Anjali Pets Care",
+      "specialty": "Veterinary Surgeon",
+      "hospital": "Agra Pet Clinic, Sanjay Place",
+      "experience": "10 Years",
+      "rating": 4.8,
+      "fee": 600,
+      "availableNow": true,
+      "isVet": true
+    }
+  ]
+}

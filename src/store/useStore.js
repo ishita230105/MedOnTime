@@ -1,18 +1,44 @@
 import { create } from 'zustand';
-
-// Mock Data
-export const MOCK_MEDICINES = [
-  { id: '1', name: 'Paracetamol 500mg', molecule_salt: 'Paracetamol', price: 20.0, rx_required: false, category: 'otc', warnings: 'Do not exceed 4g per day.', generic_for: null },
-  { id: '2', name: 'Augmentin 625 Duo (Branded)', molecule_salt: 'Amoxicillin + Clavulanic Acid', price: 200.0, rx_required: true, category: 'antibiotics', warnings: 'Complete full course.', generic_for: null },
-  { id: '2_generic', name: 'Moxikind-CV (Generic)', molecule_salt: 'Amoxicillin + Clavulanic Acid', price: 60.0, rx_required: true, category: 'antibiotics', warnings: 'Complete full course.', generic_for: '2' },
-  { id: '3', name: 'Cetirizine 10mg', molecule_salt: 'Cetirizine', price: 15.0, rx_required: false, category: 'allergies', side_effects: 'May cause drowsiness.', generic_for: null },
-  { id: '4', name: 'Bravecto (Dog Flea/Tick)', molecule_salt: 'Fluralaner', price: 1500.0, rx_required: true, category: 'vet', generic_for: null },
-  { id: '5', name: 'Heartgard Plus (Dog)', molecule_salt: 'Ivermectin/Pyrantel', price: 800.0, rx_required: true, category: 'vet', generic_for: null }
-];
+import { supabase } from '../lib/supabase';
+import localMedicines from '../data/medicinesDB.json';
 
 export const useStore = create((set, get) => ({
-  userRole: null,
+  user: null,
+  setUser: (user) => set({ user }),
+  userRole: 'patient',
   setUserRole: (role) => set({ userRole: role }),
+  selectedDoctor: null,
+  setSelectedDoctor: (doctor) => set({ selectedDoctor: doctor }),
+
+  // Real Data
+  medicines: [],
+  inventory: [],
+  fetchMedicines: async () => {
+    try {
+      if (!supabase) {
+        set({ medicines: localMedicines });
+        return;
+      }
+      const { data } = await supabase.from('medicines').select('*');
+      if (data && data.length > 0) {
+        set({ medicines: data });
+      } else {
+        set({ medicines: localMedicines });
+      }
+    } catch (e) {
+      console.error("fetchMedicines Error:", e);
+      set({ medicines: localMedicines });
+    }
+  },
+  fetchInventory: async () => {
+    try {
+      if (!supabase) return;
+      const { data } = await supabase.from('inventory').select('*, medicines(*)');
+      if (data) set({ inventory: data });
+    } catch (e) {
+      console.error("fetchInventory Error:", e);
+    }
+  },
 
   // Cart State
   cart: [],
@@ -30,30 +56,73 @@ export const useStore = create((set, get) => ({
   cartTotal: () => get().cart.reduce((total, item) => total + (item.medicine.price * item.qty), 0),
   needsPrescription: () => get().cart.some(item => item.medicine.rx_required),
 
-  // Orders
+  // Orders State (Supabase Connected)
   orders: [],
-  placeOrder: (rxFile = null) => {
-    const { cart, cartTotal } = get();
-    const newOrder = {
-      id: Math.random().toString(36).substr(2, 9),
-      items: [...cart],
-      total: cartTotal(),
-      status: 'pending',
-      rx_file_url: rxFile,
-      created_at: new Date().toISOString()
-    };
-    set((state) => ({ 
-      orders: [...state.orders, newOrder],
-      cart: [] 
-    }));
-    return newOrder;
+  fetchOrders: async () => {
+    try {
+      if (!supabase) return;
+      const { data } = await supabase.from('orders').select('*').order('created_at', { ascending: false });
+      if (data) set({ orders: data });
+    } catch (e) {
+      console.error("fetchOrders Error:", e);
+    }
   },
-  updateOrderStatus: (orderId, newStatus) => set((state) => ({
-    orders: state.orders.map(o => o.id === orderId ? { ...o, status: newStatus } : o)
-  })),
 
-  // Telehealth State
-  telehealthSession: null,
-  startTelehealthSession: () => set({ telehealthSession: { status: 'connecting', startTime: Date.now() } }),
-  endTelehealthSession: () => set({ telehealthSession: null }),
+  placeOrder: async (rxFileUrl = null) => {
+    try {
+      const { cart, cartTotal, user } = get();
+      if (!supabase) return null;
+
+      const newOrder = {
+        patient_id: user?.id || null,
+        total_amount: cartTotal(),
+        status: 'pending',
+        items: cart,
+        rx_file_url: rxFileUrl
+      };
+
+      const { data, error } = await supabase.from('orders').insert(newOrder).select().single();
+      
+      if (!error && data) {
+        set((state) => ({ 
+          orders: [data, ...state.orders],
+          cart: [] 
+        }));
+        return data;
+      }
+      if (error) console.error("placeOrder Supabase Error:", error);
+    } catch (e) {
+      console.error("placeOrder Error:", e);
+    }
+    return null;
+  },
+
+  updateOrderStatus: async (orderId, newStatus) => {
+    if (!supabase) return;
+    // Optimistic UI update
+    set((state) => ({
+      orders: state.orders.map(o => o.id === orderId ? { ...o, status: newStatus } : o)
+    }));
+    await supabase.from('orders').update({ status: newStatus }).eq('id', orderId);
+  },
+
+  // Setup Realtime Listener for Orders
+  initializeRealtime: () => {
+    try {
+      if (!supabase) return;
+      const channel = supabase.channel('public:orders');
+      if (channel && channel.on) {
+        channel.on('postgres_changes', { event: '*', schema: 'public', table: 'orders' }, payload => {
+          get().fetchOrders();
+        });
+        
+        // Some older v2 clients require subscribe to be called directly on the channel, not chained.
+        if (channel.subscribe) {
+          channel.subscribe();
+        }
+      }
+    } catch (e) {
+      console.error("Realtime Init Error:", e);
+    }
+  }
 }));

@@ -1,16 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Search, MapPin, Clock, ShoppingCart, Video, PhoneCall, Camera } from 'lucide-react';
-import { useStore, MOCK_MEDICINES } from '../../store/useStore';
+import { useStore } from '../../store/useStore';
 
 export default function Dashboard({ navigateTo }) {
-  const { cartTotal, cart } = useStore();
+  const { cartTotal, cart, medicines, fetchMedicines, initializeRealtime, fetchOrders } = useStore();
   const [activeCategory, setActiveCategory] = React.useState('all');
+  const [searchQuery, setSearchQuery] = React.useState('');
+
+  useEffect(() => {
+    try {
+      if (fetchMedicines) fetchMedicines();
+      if (fetchOrders) fetchOrders();
+    } catch (e) {
+      console.error("Error in Dashboard initialization:", e);
+    }
+  }, []);
 
   const categoryMap = ['otc', 'antibiotics', 'vet', 'allergies'];
   
-  const displayedMedicines = activeCategory === 'all' 
-    ? MOCK_MEDICINES 
-    : MOCK_MEDICINES.filter(m => m.category === activeCategory);
+  // Filter by category first, then by search query
+  let displayedMedicines = activeCategory === 'all' 
+    ? medicines 
+    : medicines.filter(m => m.category === activeCategory);
+
+  if (searchQuery.trim() !== '') {
+    const q = searchQuery.toLowerCase();
+    displayedMedicines = displayedMedicines.filter(m => 
+      m.name.toLowerCase().includes(q) || m.molecule_salt.toLowerCase().includes(q)
+    );
+  } else if (activeCategory === 'all') {
+    // If no search and all categories, limit to 10
+    displayedMedicines = displayedMedicines.slice(0, 10);
+  }
 
   return (
     <div className="pb-24">
@@ -41,6 +62,8 @@ export default function Dashboard({ navigateTo }) {
           </div>
           <input 
             type="text" 
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
             placeholder="Search medicines, salts, or diseases..." 
             className="w-full pl-10 pr-4 py-3 rounded-xl text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-300 shadow-sm"
           />
@@ -121,13 +144,15 @@ export default function Dashboard({ navigateTo }) {
 
       {/* Popular Medicines */}
       <div className="px-4 mb-6">
-        <h3 className="font-bold text-slate-800 mb-3">{activeCategory === 'all' ? 'Trending Right Now' : 'Recommended'}</h3>
-        <div className="flex overflow-x-auto space-x-4 pb-2">
+        <h3 className="font-bold text-slate-800 mb-3">
+          {searchQuery ? 'Search Results' : (activeCategory === 'all' ? 'Trending Right Now' : 'Recommended')}
+        </h3>
+        <div className={(activeCategory === 'all' && !searchQuery) ? "flex overflow-x-auto space-x-4 pb-2" : "grid grid-cols-2 gap-3"}>
           {displayedMedicines.length === 0 ? (
             <div className="text-sm text-slate-500 p-4">No items found for this category.</div>
           ) : (
             displayedMedicines.map((med) => (
-            <div key={med.id} className="min-w-[160px] bg-white border border-slate-200 rounded-xl p-3 shadow-sm flex flex-col justify-between">
+            <div key={med.id} className={`${(activeCategory === 'all' && !searchQuery) ? 'min-w-[160px]' : 'w-full'} bg-white border border-slate-200 rounded-xl p-3 shadow-sm flex flex-col justify-between`}>
               <div>
                 {med.rx_required && (
                   <span className="text-[9px] bg-red-100 text-red-700 px-2 py-0.5 rounded font-bold uppercase mb-2 inline-block">Rx Req</span>

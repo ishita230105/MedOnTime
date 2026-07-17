@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useStore } from '../store/useStore';
 import { Package, CheckCircle, Clock, MapPin, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export default function PickerApp() {
-  const { orders, updateOrderStatus } = useStore();
+  const { orders, fetchOrders, initializeRealtime, updateOrderStatus } = useStore();
   const navigate = useNavigate();
   const [activeOrder, setActiveOrder] = useState(null);
+
+  useEffect(() => {
+    fetchOrders();
+    initializeRealtime();
+  }, []);
 
   const pendingOrders = orders.filter(o => o.status === 'pending');
 

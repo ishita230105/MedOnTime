@@ -1,10 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useStore } from '../store/useStore';
 import { Map, Navigation, CheckCircle, Camera, ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 export default function RiderApp() {
-  const { orders, updateOrderStatus } = useStore();
+  const { orders, fetchOrders, initializeRealtime, updateOrderStatus } = useStore();
+  const [activeTab, setActiveTab] = useState('map');
+
+  useEffect(() => {
+    fetchOrders();
+    initializeRealtime();
+  }, []);
+
   const navigate = useNavigate();
   const [podUploaded, setPodUploaded] = useState(false);
   const activeOrders = orders.filter(o => o.status === 'out_for_delivery');

@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import { Camera, Upload, CheckCircle, Clock, ArrowLeft, Loader2, Pill } from 'lucide-react';
-import { useStore, MOCK_MEDICINES } from '../../store/useStore';
+import { useStore } from '../../store/useStore';
 
 export default function ScannerMock({ navigateTo }) {
   const [scanning, setScanning] = useState(false);
   const [result, setResult] = useState(null);
-  const { addToCart } = useStore();
+  const { addToCart, medicines } = useStore();
 
   const handleAddAll = () => {
-    // Add Augmentin (mock id 2)
-    const augmentin = MOCK_MEDICINES.find(m => m.id === '2');
-    if (augmentin) addToCart(augmentin);
-    
-    // Add a mock Pan 40 if needed, or just let the cart take augmentin for now.
-    // For completeness, we'll just add Augmentin which is in our mock DB.
+    let med = medicines.find(m => m.name.toLowerCase().includes('augmentin'));
+    if (!med && medicines.length > 0) med = medicines[0]; // fallback to anything so demo works
+    if (med) addToCart(med);
     navigateTo('cart');
   };
 

@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Video, PhoneOff, Mic, MicOff, Camera, CameraOff, FileText } from 'lucide-react';
-import { useStore, MOCK_MEDICINES } from '../../store/useStore';
+import { useStore } from '../../store/useStore';
 
 export default function TelehealthMock({ navigateTo }) {
   const [timeLeft, setTimeLeft] = useState(600); // 10 minutes = 600 seconds
   const [isMuted, setIsMuted] = useState(false);
   const [isVideoOff, setIsVideoOff] = useState(false);
   const [status, setStatus] = useState('connecting');
-  const { addToCart } = useStore();
+  const { addToCart, medicines, selectedDoctor } = useStore();
 
   useEffect(() => {
     // Simulate connection time
@@ -41,8 +41,9 @@ export default function TelehealthMock({ navigateTo }) {
   };
 
   const handleApplyPrescription = () => {
-    // Mock doctor prescribed Amoxicillin
-    addToCart(MOCK_MEDICINES.find(m => m.id === '2')); 
+    let med = medicines.find(m => m.name.toLowerCase().includes('amoxicillin'));
+    if (!med && medicines.length > 0) med = medicines[0];
+    if (med) addToCart(med); 
     navigateTo('cart');
   };
 
@@ -84,9 +85,9 @@ export default function TelehealthMock({ navigateTo }) {
             DR
           </div>
           <div>
-            <h2 className="font-bold text-sm">Dr. Amit Sharma</h2>
+            <h2 className="font-bold text-sm">{selectedDoctor?.name || 'Dr. Amit Sharma'}</h2>
             <p className="text-xs text-emerald-400">
-              {status === 'connecting' ? 'Connecting...' : 'General Physician'}
+              {status === 'connecting' ? 'Connecting...' : (selectedDoctor?.specialty || 'General Physician')}
             </p>
           </div>
         </div>

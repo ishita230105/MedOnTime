@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Video, PhoneOff, Mic, MicOff, Camera, CameraOff, FileText, Dog } from 'lucide-react';
-import { useStore, MOCK_MEDICINES } from '../../store/useStore';
+import { useStore } from '../../store/useStore';
 
 export default function TelehealthVetMock({ navigateTo }) {
   const [timeLeft, setTimeLeft] = useState(600); // 10 minutes = 600 seconds
   const [isMuted, setIsMuted] = useState(false);
   const [isVideoOff, setIsVideoOff] = useState(false);
   const [status, setStatus] = useState('connecting');
-  const { addToCart } = useStore();
+  const { addToCart, medicines, selectedDoctor } = useStore();
 
   useEffect(() => {
     const connectTimer = setTimeout(() => {
@@ -39,8 +39,9 @@ export default function TelehealthVetMock({ navigateTo }) {
   };
 
   const handleApplyPrescription = () => {
-    // Vet prescribed Bravecto
-    addToCart(MOCK_MEDICINES.find(m => m.id === '4')); 
+    let med = medicines.find(m => m.name.toLowerCase().includes('bravecto'));
+    if (!med && medicines.length > 0) med = medicines[0];
+    if (med) addToCart(med); 
     navigateTo('cart');
   };
 
@@ -95,9 +96,9 @@ export default function TelehealthVetMock({ navigateTo }) {
 
       <div className="flex-1 relative flex items-center justify-center bg-slate-800">
         {status === 'connecting' ? (
-          <div className="animate-pulse flex flex-col items-center">
-            <Video size={48} className="text-slate-500 mb-4" />
-            <p className="text-slate-400">Waiting for Vet to join...</p>
+          <div className="text-white text-center mt-6">
+            <h2 className="text-2xl font-bold">{selectedDoctor?.name || 'Dr. Paws (Vet AI)'}</h2>
+            <p className="text-slate-300">{selectedDoctor?.specialty || 'Veterinary Consultation'}</p>
           </div>
         ) : (
           <div className="w-full h-full relative">

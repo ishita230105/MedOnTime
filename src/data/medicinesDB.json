@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "8cd7473b-3c22-49fb-9d01-27a483bf31a9",
+    "name": "Augmentin 625 Duo",
+    "molecule_salt": "Amoxicillin + Clavulanic Acid",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 200.0,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "55f0a3a3-416f-4edb-8315-2828025b42f4",
+    "name": "Amoxicillin 500mg",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 120.0,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "721d28cc-b5e2-4083-abae-4736eb537c63",
+    "name": "Bravecto 1000mg",
+    "molecule_salt": "Fluralaner",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1500.0,
+    "brand": "Mankind"
+  },
+  {
+    "id": "c5953667-63f0-4e73-9977-21b68b3f0a02",
+    "name": "Paracetamol 500mg",
+    "molecule_salt": "Paracetamol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 20.0,
+    "brand": "Bayer"
+  },
+  {
+    "id": "fd7c3ad4-c1e4-4ffc-a5c9-c5c5c36caa7d",
+    "name": "Pan 40",
+    "molecule_salt": "Pantoprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 55.0,
+    "brand": "Bayer"
+  },
+  {
+    "id": "d1f90148-731a-4d2d-9cc2-70ecbf303c10",
+    "name": "Levocetirizine Ointment 20g",
+    "molecule_salt": "Levocetirizine",
+    "category": "otc",
+    "rx_required": false,
+    "price": 454.14,
+    "brand": "GSK"
+  },
+  {
+    "id": "49aa8795-2086-4a30-b35a-51b5c84d2e88",
+    "name": "Heartgard 40mg",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 696.12,
+    "brand": "GSK"
+  },
+  {
+    "id": "830b7bd4-0b9a-45db-b074-645b80621c36",
+    "name": "Benadryl Spray",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 38.93,
+    "brand": "Bayer"
+  },
+  {
+    "id": "f84ca6f7-7fd5-418a-a33b-f85a1d174bd4",
+    "name": "Corex Syrup 200ml",
+    "molecule_salt": "Corex",
+    "category": "otc",
+    "rx_required": false,
+    "price": 396.51,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "b8e52df8-3fad-4136-9276-2caa04c6f33a",
+    "name": "Heartgard 625 Duo",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 770.19,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "68cdc00c-15c2-4c0f-a4cb-918c3f8cc7a1",
+    "name": "Heartgard Syrup 100ml",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 588.44,
+    "brand": "Abbott"
+  },
+  {
+    "id": "d08af928-c946-4969-9ce0-0728418bf55f",
+    "name": "Gelusil Chewable",
+    "molecule_salt": "Gelusil",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 355.38,
+    "brand": "Torrent"
+  },
+  {
+    "id": "1fa1b9be-dcb4-4370-8d3a-7ff799b04f2a",
+    "name": "Calpol Plus",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 623.44,
+    "brand": "Torrent"
+  },
+  {
+    "id": "a829bb9b-7531-478a-acf2-5e5b611acbb6",
+    "name": "Rabeprazole 500mg",
+    "molecule_salt": "Rabeprazole",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 71.03,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "94fdbcc0-5988-4bf3-b68c-bc9f2787090e",
+    "name": "Benadryl 250mg",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 91.88,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "8669c2ab-d762-4823-98ca-7bd82473c4ee",
+    "name": "Digene 20mg",
+    "molecule_salt": "Digene",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 699.0,
+    "brand": "Bayer"
+  },
+  {
+    "id": "cd97bfaa-20b4-444d-b9f0-8e0362494871",
+    "name": "Digene Injection",
+    "molecule_salt": "Digene",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 285.95,
+    "brand": "Cipla"
+  },
+  {
+    "id": "322fc88f-8e63-4a99-b5de-7df129d8a7a9",
+    "name": "Cefixime Spray",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 229.56,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "9c2b5d18-3b04-44b6-8780-ea7c5ad9d036",
+    "name": "Azithromycin Ointment 20g",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 738.59,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "d513cce8-c373-4233-970d-aa26ee4ab104",
+    "name": "Ibuprofen 40mg",
+    "molecule_salt": "Ibuprofen",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1737.37,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "46a468e9-83a3-4d87-9d44-9f46f10f87b0",
+    "name": "Pantoprazole 250mg",
+    "molecule_salt": "Pantoprazole",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1822.84,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "24922c78-deb2-49c9-a50d-37ad7c30bbd0",
+    "name": "Diclofenac Drops 10ml",
+    "molecule_salt": "Diclofenac",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 519.47,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "bd8b3ffc-33c3-4cbb-beac-7b091cab2039",
+    "name": "Ofloxacin Syrup 200ml",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 434.81,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "a2d4766b-9c50-4a11-8a6f-98a236c92e13",
+    "name": "Metformin 625 Duo",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 430.67,
+    "brand": "Abbott"
+  },
+  {
+    "id": "ce821aea-e06b-441a-99dd-3a575f08c9e5",
+    "name": "Cefixime 100mg",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 496.62,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "23237fa2-4908-43d5-8274-add9fd5c54f9",
+    "name": "Calpol Forte",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 272.58,
+    "brand": "Cipla"
+  },
+  {
+    "id": "74fedfbd-277f-44f9-b4e5-9f135fbbbeef",
+    "name": "Amoxicillin Spray",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 146.03,
+    "brand": "Mankind"
+  },
+  {
+    "id": "bb52aeb4-f05f-4aa2-a839-d06904640b11",
+    "name": "NexGard 625 Duo",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1647.43,
+    "brand": "Abbott"
+  },
+  {
+    "id": "eb52af17-f5fc-4d60-8a76-5a68a8c7b271",
+    "name": "Gelusil Ointment 20g",
+    "molecule_salt": "Gelusil",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 151.84,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "bbf18e77-ca8a-4f46-b06b-10d63e05641a",
+    "name": "Paracetamol Drops 10ml",
+    "molecule_salt": "Paracetamol",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 129.15,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "eb1be60e-314a-48e1-9d79-b89423048641",
+    "name": "Pantoprazole 20mg",
+    "molecule_salt": "Pantoprazole",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1893.27,
+    "brand": "Abbott"
+  },
+  {
+    "id": "6d918d29-3ee1-47ec-86bf-b2a02c02950f",
+    "name": "Pantoprazole Drops 10ml",
+    "molecule_salt": "Pantoprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 694.29,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "1abf0b81-2907-4a60-a4a8-491fcdd54ec0",
+    "name": "Ofloxacin Spray",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 716.69,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "859e210f-923e-4248-8be7-3a1c3d75325d",
+    "name": "Calpol Drops 10ml",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 781.45,
+    "brand": "GSK"
+  },
+  {
+    "id": "43c654d2-147a-4dee-a112-a4113e5453f6",
+    "name": "Gelusil 100mg",
+    "molecule_salt": "Gelusil",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 10.31,
+    "brand": "Bayer"
+  },
+  {
+    "id": "adf61562-6345-4f31-b807-c36d4eff2c82",
+    "name": "Amoxicillin Injection",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 174.69,
+    "brand": "Torrent"
+  },
+  {
+    "id": "2e696bdc-c8a0-421c-9c0b-42ace0338d7c",
+    "name": "NexGard 20mg",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1278.92,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "5286540d-6bb8-4a0d-b0e3-703bf4f96eb5",
+    "name": "Drontal Syrup 200ml",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1193.98,
+    "brand": "Lupin"
+  },
+  {
+    "id": "9a32fb12-4be9-4091-bbf7-514e253f8a8e",
+    "name": "Amoxicillin 250mg",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 148.39,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "7f115b3d-a4f1-48b1-9922-9333796e5358",
+    "name": "Amlodipine 100mg",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 411.94,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "35e528f5-de54-447f-ba1f-9936be853024",
+    "name": "Rabeprazole Syrup 200ml",
+    "molecule_salt": "Rabeprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 775.69,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "5c9854c5-38b6-48ee-96f8-0f7fad0011a3",
+    "name": "Dolo Syrup 100ml",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 179.38,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "2733d357-c7a8-4ebf-a8b1-9f46de831eb7",
+    "name": "Metformin Syrup 100ml",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 475.61,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "6a3dd222-dcf2-4c24-a11d-bc45d069a9b5",
+    "name": "Ibuprofen 500mg",
+    "molecule_salt": "Ibuprofen",
+    "category": "otc",
+    "rx_required": false,
+    "price": 389.14,
+    "brand": "Lupin"
+  },
+  {
+    "id": "0fd21dfb-0d73-4ce1-9b0e-57c31cfbf75f",
+    "name": "Heartgard Plus",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 2152.8,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "dbcd0ac3-1a62-4285-b602-ca17e42cde53",
+    "name": "Digene 500mg",
+    "molecule_salt": "Digene",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1065.26,
+    "brand": "Lupin"
+  },
+  {
+    "id": "75efba93-d16f-47b1-b562-551e58792549",
+    "name": "Heartgard Spray",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1961.99,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "ca127f1c-1ee3-494a-85fb-7512602a321d",
+    "name": "Gelusil 500mg",
+    "molecule_salt": "Gelusil",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 490.78,
+    "brand": "Bayer"
+  },
+  {
+    "id": "6f12613c-99b9-4a6c-93d6-4a477ed4c8f6",
+    "name": "Honitus Forte",
+    "molecule_salt": "Honitus",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1997.63,
+    "brand": "Mankind"
+  },
+  {
+    "id": "715ab340-7dd1-4e8e-876c-581e609fa738",
+    "name": "Ibuprofen Chewable",
+    "molecule_salt": "Ibuprofen",
+    "category": "vet",
+    "rx_required": false,
+    "price": 553.56,
+    "brand": "Bayer"
+  },
+  {
+    "id": "52eef957-552a-4213-802d-2571e65cc832",
+    "name": "Calpol 500mg",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 391.75,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "1cb49564-1f89-44ed-89da-582b077b2587",
+    "name": "Levocetirizine 100mg",
+    "molecule_salt": "Levocetirizine",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 128.81,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "83b576e7-2ea4-48d8-91e2-138dfb5758d8",
+    "name": "Calpol Syrup 200ml",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 401.01,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "74280472-157b-4e7b-8aa2-4add6f98e0b7",
+    "name": "Gelusil Syrup 100ml",
+    "molecule_salt": "Gelusil",
+    "category": "otc",
+    "rx_required": false,
+    "price": 678.06,
+    "brand": "GSK"
+  },
+  {
+    "id": "4c947cf9-1377-482d-974b-dc212f61c37f",
+    "name": "Levocetirizine 625 Duo",
+    "molecule_salt": "Levocetirizine",
+    "category": "vet",
+    "rx_required": false,
+    "price": 2358.73,
+    "brand": "Lupin"
+  },
+  {
+    "id": "199a9970-a45a-4f57-8272-dbdb72fde773",
+    "name": "NexGard Syrup 100ml",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 2331.02,
+    "brand": "GSK"
+  },
+  {
+    "id": "fb2d2209-3ae2-41fc-aec4-d64c3999454c",
+    "name": "Pantoprazole Spray",
+    "molecule_salt": "Pantoprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 156.89,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "f6ede669-9da4-4822-8ebe-b0712e4b0d19",
+    "name": "NexGard Spray",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 2442.31,
+    "brand": "Mankind"
+  },
+  {
+    "id": "9837f115-b4e9-4892-953c-c84ef4483244",
+    "name": "Gelusil Drops 10ml",
+    "molecule_salt": "Gelusil",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 702.52,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "bc66144d-16ea-4f0f-960e-649c516190da",
+    "name": "Azithromycin Spray",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 68.59,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "7dfc0437-8307-4164-a496-4da68ba203de",
+    "name": "Benadryl Drops 10ml",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 563.98,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "a255149b-74b1-4fde-9fd2-16b00672f517",
+    "name": "Amlodipine Syrup 200ml",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 619.98,
+    "brand": "Cipla"
+  },
+  {
+    "id": "c8a6ee7d-e9c4-4984-9ef2-2e91bbacb96d",
+    "name": "Ibuprofen Injection",
+    "molecule_salt": "Ibuprofen",
+    "category": "otc",
+    "rx_required": false,
+    "price": 405.63,
+    "brand": "Bayer"
+  },
+  {
+    "id": "a6efe2f1-ecbb-4f31-a1b5-d6ad392e04dd",
+    "name": "Bravecto 250mg",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1194.73,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "56d5ff94-2f7e-4508-8945-422508aee8a0",
+    "name": "Diclofenac Spray",
+    "molecule_salt": "Diclofenac",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 391.65,
+    "brand": "Torrent"
+  },
+  {
+    "id": "21908199-34c2-4060-a956-31f8fcdb6e8d",
+    "name": "Calpol Spray",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 98.44,
+    "brand": "Torrent"
+  },
+  {
+    "id": "3987e4f9-174f-44f9-b3d8-e71ff4b582c5",
+    "name": "Gelusil Plus",
+    "molecule_salt": "Gelusil",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 322.42,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "736724d9-013a-41ab-bbbe-4b88195dc1ff",
+    "name": "Azithromycin Syrup 200ml",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 206.66,
+    "brand": "Abbott"
+  },
+  {
+    "id": "3bc14a5d-2b69-4503-9579-e41cc59fdbb0",
+    "name": "Corex 100mg",
+    "molecule_salt": "Corex",
+    "category": "vet",
+    "rx_required": false,
+    "price": 370.31,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "30a86208-2463-4171-8fa2-bd6bc77c546f",
+    "name": "Bravecto Forte",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": false,
+    "price": 980.17,
+    "brand": "GSK"
+  },
+  {
+    "id": "18c9a3c7-c800-4f56-84af-a2269d49cfaf",
+    "name": "Levocetirizine Syrup 200ml",
+    "molecule_salt": "Levocetirizine",
+    "category": "otc",
+    "rx_required": false,
+    "price": 47.47,
+    "brand": "Torrent"
+  },
+  {
+    "id": "e4bc37fa-8d3d-4a74-a6e4-31bbb31d6867",
+    "name": "Pantoprazole Plus",
+    "molecule_salt": "Pantoprazole",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 485.43,
+    "brand": "Abbott"
+  },
+  {
+    "id": "4e260d7f-6f81-4943-9438-6b0c4a756269",
+    "name": "Amlodipine Ointment 20g",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 47.53,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "4f4ebb61-414c-49fd-9814-a9b1671480ba",
+    "name": "Dolo 20mg",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 209.11,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "775dd360-128d-41a3-bdaf-9a98ed3b6f14",
+    "name": "Rabeprazole 20mg",
+    "molecule_salt": "Rabeprazole",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1415.65,
+    "brand": "Abbott"
+  },
+  {
+    "id": "e0ee1f78-c812-4ef3-845b-0442b87d4a8b",
+    "name": "Digene Ointment 20g",
+    "molecule_salt": "Digene",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 240.58,
+    "brand": "Bayer"
+  },
+  {
+    "id": "0c63e478-c239-43c4-9ca0-d3d2293d5b55",
+    "name": "Ofloxacin Drops 10ml",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 563.91,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "fae85ae8-5453-4a2f-a3c8-eaf4713d2952",
+    "name": "Metformin 40mg",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 258.45,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "55061a16-883f-4da3-b7f4-5920c86179f2",
+    "name": "Bravecto 500mg",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1941.94,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "0fa723a9-5e63-4f0a-ae5b-36bcf17f8eb7",
+    "name": "Amoxicillin 100mg",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 304.06,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "ea4a853f-6902-45e9-b001-a9f581e8ac32",
+    "name": "Calpol 625 Duo",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 92.96,
+    "brand": "Torrent"
+  },
+  {
+    "id": "9d2968e5-6c64-4bf3-884b-137579dfd6ca",
+    "name": "Levocetirizine Drops 10ml",
+    "molecule_salt": "Levocetirizine",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 687.06,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "65dab1b1-d4a4-4c27-a20f-4cf0e47c5b6f",
+    "name": "Levocetirizine Injection",
+    "molecule_salt": "Levocetirizine",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 510.83,
+    "brand": "Cipla"
+  },
+  {
+    "id": "6ea255a3-200b-4827-a771-cdd8cb5a3cd0",
+    "name": "Ofloxacin 625 Duo",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 404.53,
+    "brand": "Lupin"
+  },
+  {
+    "id": "f3c9fe24-f98a-4624-9a98-e8a44b78a5fa",
+    "name": "Rabeprazole Injection",
+    "molecule_salt": "Rabeprazole",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 74.14,
+    "brand": "GSK"
+  },
+  {
+    "id": "ecc303bc-c2ef-447e-b656-7aa0c8ee2699",
+    "name": "Corex Spray",
+    "molecule_salt": "Corex",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 119.66,
+    "brand": "GSK"
+  },
+  {
+    "id": "8af98cfc-5ede-4aa3-9266-f1775e9d7c33",
+    "name": "Digene Plus",
+    "molecule_salt": "Digene",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 383.22,
+    "brand": "Abbott"
+  },
+  {
+    "id": "5047ca1b-5e98-4e88-b8bb-6b7984035827",
+    "name": "Levocetirizine Syrup 100ml",
+    "molecule_salt": "Levocetirizine",
+    "category": "otc",
+    "rx_required": false,
+    "price": 254.72,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "f973d177-894d-4eb3-a461-a9f040c94ce9",
+    "name": "Amoxicillin Ointment 20g",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 114.78,
+    "brand": "Mankind"
+  },
+  {
+    "id": "9fea7358-b918-44dc-882b-88731a25e2d7",
+    "name": "Corex Syrup 100ml",
+    "molecule_salt": "Corex",
+    "category": "otc",
+    "rx_required": false,
+    "price": 434.07,
+    "brand": "Bayer"
+  },
+  {
+    "id": "b73e9a91-637f-476c-b779-80a50656c7dc",
+    "name": "Cefixime Syrup 200ml",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 118.75,
+    "brand": "Torrent"
+  },
+  {
+    "id": "0210bd6b-2a45-4fda-bf9a-8c0eb1d07dd5",
+    "name": "Gelusil Forte",
+    "molecule_salt": "Gelusil",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1546.3,
+    "brand": "Mankind"
+  },
+  {
+    "id": "725705ad-7128-429b-97b9-baafb75884af",
+    "name": "Amoxicillin Drops 10ml",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 528.4,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "504ca4b2-ce85-4512-b482-81afa744c773",
+    "name": "Azithromycin Forte",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 38.64,
+    "brand": "Bayer"
+  },
+  {
+    "id": "7c7c6306-6a85-4bae-acaa-afe0d32deeb0",
+    "name": "Drontal Forte",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 2295.32,
+    "brand": "Bayer"
+  },
+  {
+    "id": "6356ab08-14d8-4a95-817f-bcad9d162ce3",
+    "name": "Drontal Injection",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": true,
+    "price": 2467.68,
+    "brand": "Lupin"
+  },
+  {
+    "id": "d555e005-c5bc-4d1f-85d2-bb5285c90142",
+    "name": "Honitus 625 Duo",
+    "molecule_salt": "Honitus",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 380.29,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "1a47a5ff-3bc5-4585-8ef8-06fb20681bbb",
+    "name": "Calpol Chewable",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 630.83,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "18884890-c9e2-472f-8276-bc3fce088389",
+    "name": "Gelusil Syrup 200ml",
+    "molecule_salt": "Gelusil",
+    "category": "otc",
+    "rx_required": false,
+    "price": 606.36,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "2d1747d2-91ca-46e6-a55d-5814643a7fcd",
+    "name": "Amoxicillin Forte",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 281.38,
+    "brand": "Cipla"
+  },
+  {
+    "id": "2419448e-d798-4990-ab50-b670e4d3abc7",
+    "name": "Ofloxacin Syrup 100ml",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 85.87,
+    "brand": "Cipla"
+  },
+  {
+    "id": "ef6db902-d0b3-4fec-af15-4299e6330860",
+    "name": "Dolo 500mg",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 89.17,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "9ec49e95-3d41-4293-8fce-d5be6423c187",
+    "name": "Cefixime Drops 10ml",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 532.44,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "3d20dbcd-b6b1-4ffe-a48b-c6d9c1f24412",
+    "name": "Digene Chewable",
+    "molecule_salt": "Digene",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 177.5,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "248f457e-39b5-49f1-8312-f2d762f8e2cd",
+    "name": "Bravecto Injection",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1950.31,
+    "brand": "Torrent"
+  },
+  {
+    "id": "d6f28054-125a-4a6c-84f0-f43998940acb",
+    "name": "Metformin Injection",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 308.45,
+    "brand": "Bayer"
+  },
+  {
+    "id": "2ab1413d-9a35-48ff-b80d-9593334da9f3",
+    "name": "Dolo 250mg",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 536.8,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "d9b3d4a5-a4c5-4949-96fc-e7d99c7b4d49",
+    "name": "Calpol Syrup 100ml",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 381.59,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "8d795afb-0102-4e05-b9d5-11f1c92dd0f5",
+    "name": "Corex Plus",
+    "molecule_salt": "Corex",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 27.58,
+    "brand": "Cipla"
+  },
+  {
+    "id": "29c614cc-b8c3-4df4-b902-4d5f3dff05c3",
+    "name": "Ibuprofen Ointment 20g",
+    "molecule_salt": "Ibuprofen",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 62.94,
+    "brand": "Abbott"
+  },
+  {
+    "id": "8a2032d8-2abc-4264-9c29-6a824c6ad534",
+    "name": "Gelusil Injection",
+    "molecule_salt": "Gelusil",
+    "category": "vet",
+    "rx_required": false,
+    "price": 447.78,
+    "brand": "Abbott"
+  },
+  {
+    "id": "20d98a4b-d231-444a-becf-9a65b5b9ddc4",
+    "name": "Rabeprazole Drops 10ml",
+    "molecule_salt": "Rabeprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 233.6,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "70638a96-6a19-4f70-a5cb-ae5b1cb84adf",
+    "name": "Drontal Drops 10ml",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 379.38,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "5be3613a-072c-4736-b71b-4764ff6306ac",
+    "name": "Cefixime 40mg",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 675.07,
+    "brand": "Abbott"
+  },
+  {
+    "id": "776bcb35-b269-41c5-8e5c-70b3fdf5bcaf",
+    "name": "Ofloxacin Injection",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 293.26,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "962983ca-d0e5-48ab-a083-e91c5d04f54c",
+    "name": "Ibuprofen Syrup 100ml",
+    "molecule_salt": "Ibuprofen",
+    "category": "otc",
+    "rx_required": false,
+    "price": 521.28,
+    "brand": "Mankind"
+  },
+  {
+    "id": "36354b14-a7be-4669-b54b-5d479e343836",
+    "name": "Honitus 500mg",
+    "molecule_salt": "Honitus",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 299.3,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "4074447b-6da9-49d1-91a4-b5ff155b82a8",
+    "name": "Honitus Syrup 100ml",
+    "molecule_salt": "Honitus",
+    "category": "otc",
+    "rx_required": false,
+    "price": 166.84,
+    "brand": "Mankind"
+  },
+  {
+    "id": "ff414054-2eaa-4d12-97fe-9a25b5a95d8b",
+    "name": "Amlodipine 20mg",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 393.08,
+    "brand": "Mankind"
+  },
+  {
+    "id": "399f2ad4-3cc3-4302-a45e-40b087484bc1",
+    "name": "Cefixime Chewable",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 691.76,
+    "brand": "Torrent"
+  },
+  {
+    "id": "811f34c5-79e5-42e8-8d0b-f158428e0036",
+    "name": "Ofloxacin Forte",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 697.61,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "ad8ab697-b9c5-4e36-8aa3-b67f1859f5d5",
+    "name": "Digene Syrup 100ml",
+    "molecule_salt": "Digene",
+    "category": "otc",
+    "rx_required": false,
+    "price": 588.44,
+    "brand": "Abbott"
+  },
+  {
+    "id": "c42031d1-7273-4434-8532-938e39f8dce0",
+    "name": "Benadryl Ointment 20g",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 533.77,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "7043f74d-e1ba-4964-a2f2-c1c35264de4a",
+    "name": "Azithromycin 100mg",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 652.77,
+    "brand": "GSK"
+  },
+  {
+    "id": "6e1c0b6e-83f3-4e6e-8295-798eb2d7c576",
+    "name": "Benadryl Syrup 200ml",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 501.35,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "580f5b31-d9ff-4399-b902-f27c77eef56c",
+    "name": "Dolo 40mg",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 777.31,
+    "brand": "Lupin"
+  },
+  {
+    "id": "111b0e07-d5d4-43dc-83f5-9a50d3f633fe",
+    "name": "Dolo Forte",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 553.42,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "1fc2d13e-b0fa-498c-a5ea-3845b3a7519a",
+    "name": "Amlodipine Syrup 100ml",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 632.81,
+    "brand": "Bayer"
+  },
+  {
+    "id": "294f842d-6dd5-45a7-9745-c5b7d65f58d6",
+    "name": "Corex 625 Duo",
+    "molecule_salt": "Corex",
+    "category": "otc",
+    "rx_required": false,
+    "price": 68.81,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "a29d2bcc-3ec2-4143-a220-7680718d1259",
+    "name": "Paracetamol 20mg",
+    "molecule_salt": "Paracetamol",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 335.37,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "129ab25a-454d-4fbe-9bc3-d231e26e38c9",
+    "name": "Ibuprofen 250mg",
+    "molecule_salt": "Ibuprofen",
+    "category": "vet",
+    "rx_required": false,
+    "price": 2260.54,
+    "brand": "Mankind"
+  },
+  {
+    "id": "6e7faf16-dce6-4937-a92f-60aee9436571",
+    "name": "Gelusil 40mg",
+    "molecule_salt": "Gelusil",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 285.12,
+    "brand": "GSK"
+  },
+  {
+    "id": "1494f30c-5e6a-4880-8eb4-4c61da0cb848",
+    "name": "Diclofenac Forte",
+    "molecule_salt": "Diclofenac",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 48.7,
+    "brand": "Torrent"
+  },
+  {
+    "id": "0a05bfbc-bd1e-4f07-a338-470cfcf691d3",
+    "name": "Rabeprazole Forte",
+    "molecule_salt": "Rabeprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 588.64,
+    "brand": "Bayer"
+  },
+  {
+    "id": "ed95ce14-1f4f-44e9-aa88-5704209a843f",
+    "name": "Cefixime Forte",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 486.01,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "68c2f780-4b9b-4d6e-aaeb-52bcab1dff5c",
+    "name": "Amlodipine 250mg",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 509.05,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "c91f8a92-78c0-41ea-bcc1-a473d722ee2b",
+    "name": "Paracetamol Ointment 20g",
+    "molecule_salt": "Paracetamol",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1725.44,
+    "brand": "Mankind"
+  },
+  {
+    "id": "744f4a39-7357-4454-882a-4e23dff38b8b",
+    "name": "Azithromycin Drops 10ml",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 277.01,
+    "brand": "Bayer"
+  },
+  {
+    "id": "de67dcd8-5856-408c-84df-d0c50ed8a866",
+    "name": "Pantoprazole Injection",
+    "molecule_salt": "Pantoprazole",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 491.78,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "bb0a3dbc-d609-4d60-93c4-76f0436882f5",
+    "name": "Pantoprazole Syrup 200ml",
+    "molecule_salt": "Pantoprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 712.94,
+    "brand": "Bayer"
+  },
+  {
+    "id": "5ded782e-0e3c-4a9a-91f9-90b9fc3fd99d",
+    "name": "Calpol 100mg",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 130.62,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "6a62221b-e4ec-49e8-af73-4b12922e664b",
+    "name": "Honitus Injection",
+    "molecule_salt": "Honitus",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 132.97,
+    "brand": "Cipla"
+  },
+  {
+    "id": "2e244a18-0666-4915-9207-08d6b7d76182",
+    "name": "Drontal 625 Duo",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 271.6,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "21ee6912-6133-4153-b902-301eb2ea1145",
+    "name": "Digene 40mg",
+    "molecule_salt": "Digene",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 530.65,
+    "brand": "Abbott"
+  },
+  {
+    "id": "2e418e65-405e-4809-ba16-9903abce045d",
+    "name": "Amoxicillin 625 Duo",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 50.52,
+    "brand": "Lupin"
+  },
+  {
+    "id": "c49e6ab5-2263-443b-9e67-6453c09723db",
+    "name": "Pantoprazole Ointment 20g",
+    "molecule_salt": "Pantoprazole",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 325.05,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "b54cb919-2cf2-4f00-b66c-877e9469ffa3",
+    "name": "Calpol Ointment 20g",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 24.99,
+    "brand": "Abbott"
+  },
+  {
+    "id": "5900d834-0d37-42a7-adc9-4bc984855f7f",
+    "name": "Dolo Ointment 20g",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 466.16,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "f4a88ad6-96d9-423c-9b9a-aebcc2ab4855",
+    "name": "Ofloxacin 40mg",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 760.89,
+    "brand": "Abbott"
+  },
+  {
+    "id": "2582fa2f-ab91-425b-ba2e-827d1df1a9f6",
+    "name": "Paracetamol 100mg",
+    "molecule_salt": "Paracetamol",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 161.3,
+    "brand": "Bayer"
+  },
+  {
+    "id": "836cd63c-54e4-499b-9260-ac68436a0f14",
+    "name": "Benadryl Forte",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 309.73,
+    "brand": "Abbott"
+  },
+  {
+    "id": "19621200-bdf9-4a89-9da4-4e1a77f6f0ea",
+    "name": "Honitus Drops 10ml",
+    "molecule_salt": "Honitus",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 388.47,
+    "brand": "Mankind"
+  },
+  {
+    "id": "0a6d89f1-23d1-48d4-9911-ec07525e898f",
+    "name": "Benadryl 40mg",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 614.47,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "ca965a28-60f7-49e2-be12-7f215aad53b7",
+    "name": "Bravecto 625 Duo",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": false,
+    "price": 507.1,
+    "brand": "Torrent"
+  },
+  {
+    "id": "5005d0e0-2408-47c9-b690-c0651130dc73",
+    "name": "Heartgard Injection",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 574.64,
+    "brand": "Torrent"
+  },
+  {
+    "id": "1b4ad2b7-73b4-461e-9bdc-d55ef48c8b79",
+    "name": "Rabeprazole Plus",
+    "molecule_salt": "Rabeprazole",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 642.42,
+    "brand": "Abbott"
+  },
+  {
+    "id": "3753c046-58fd-432c-859e-21b293bd4e4e",
+    "name": "Digene Drops 10ml",
+    "molecule_salt": "Digene",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 592.82,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "6b51b024-de24-4f82-b83a-da4a822b947f",
+    "name": "Drontal 40mg",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 159.17,
+    "brand": "GSK"
+  },
+  {
+    "id": "ffa82568-080b-4cc8-8493-386fcb6fc50b",
+    "name": "Corex 40mg",
+    "molecule_salt": "Corex",
+    "category": "otc",
+    "rx_required": false,
+    "price": 58.27,
+    "brand": "Torrent"
+  },
+  {
+    "id": "131374c4-9aa6-426e-9963-b6199d4dfdff",
+    "name": "Amoxicillin Chewable",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 551.32,
+    "brand": "Torrent"
+  },
+  {
+    "id": "b354b15d-8149-4c9c-a6ca-9f8f42b4f1e8",
+    "name": "Cefixime Injection",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 650.02,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "eef9fe2d-8996-468c-81c4-c7c486725e1b",
+    "name": "Diclofenac Chewable",
+    "molecule_salt": "Diclofenac",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 126.83,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "5b9a853b-3235-40ae-b479-e0125b9df891",
+    "name": "Paracetamol 250mg",
+    "molecule_salt": "Paracetamol",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 288.67,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "ddde0699-01c0-47c5-ac03-d270c027533d",
+    "name": "Digene Forte",
+    "molecule_salt": "Digene",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 796.67,
+    "brand": "GSK"
+  },
+  {
+    "id": "21e5f3ce-62c6-4edd-8306-eeb110624988",
+    "name": "Paracetamol Syrup 100ml",
+    "molecule_salt": "Paracetamol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 593.98,
+    "brand": "Lupin"
+  },
+  {
+    "id": "610f1406-a6c5-4bb1-8f76-c43286d1cc6c",
+    "name": "Benadryl 20mg",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 364.72,
+    "brand": "Torrent"
+  },
+  {
+    "id": "c9dcb849-eaba-4da9-81c3-8638c5d865f8",
+    "name": "Drontal Chewable",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 641.26,
+    "brand": "Cipla"
+  },
+  {
+    "id": "ff214f77-dc91-4d66-87be-556174e1b63c",
+    "name": "Metformin Plus",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 131.23,
+    "brand": "Mankind"
+  },
+  {
+    "id": "81509eba-d632-4a56-91c3-4e3fe7edb155",
+    "name": "Ofloxacin 100mg",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 210.75,
+    "brand": "Abbott"
+  },
+  {
+    "id": "f4f46ab8-b7a5-46cc-bd7f-d5a39d36cc5f",
+    "name": "Drontal Spray",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 389.83,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "6c58103f-ebea-432e-b693-f4c13e61097e",
+    "name": "Cefixime 500mg",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 562.87,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "b472f065-564e-4833-ac2f-51d4c7cbc0d3",
+    "name": "Amlodipine Injection",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 402.06,
+    "brand": "GSK"
+  },
+  {
+    "id": "c0fd23ef-3fd4-4fb3-aa6f-05fea8e53f89",
+    "name": "Levocetirizine 500mg",
+    "molecule_salt": "Levocetirizine",
+    "category": "otc",
+    "rx_required": false,
+    "price": 400.39,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "8fd5edfa-9ad9-430b-a124-f712576e30a9",
+    "name": "Bravecto Syrup 200ml",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": true,
+    "price": 461.89,
+    "brand": "GSK"
+  },
+  {
+    "id": "ea7abcad-d5ec-453f-8709-a63f6b319740",
+    "name": "Metformin 250mg",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 333.11,
+    "brand": "Lupin"
+  },
+  {
+    "id": "1ee913a9-a25c-4304-b5e2-d77d4d5a75ae",
+    "name": "Ofloxacin 20mg",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 90.97,
+    "brand": "Cipla"
+  },
+  {
+    "id": "6169edc1-c028-4004-b145-174512332c87",
+    "name": "Pantoprazole Chewable",
+    "molecule_salt": "Pantoprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 374.31,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "13743389-c0b6-427a-9674-0e9fc650fad4",
+    "name": "Corex Chewable",
+    "molecule_salt": "Corex",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1230.15,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "4f7fec16-da75-472e-8e2a-6883e1123193",
+    "name": "Dolo Drops 10ml",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 640.36,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "0477c0cb-d260-4aa3-bd4c-435192e36355",
+    "name": "Digene 625 Duo",
+    "molecule_salt": "Digene",
+    "category": "otc",
+    "rx_required": false,
+    "price": 199.62,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "f27d0cf5-fe67-427a-ae8e-abd99c95e5a2",
+    "name": "Bravecto Plus",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": true,
+    "price": 734.12,
+    "brand": "Lupin"
+  },
+  {
+    "id": "33c12f09-bbe1-4f50-b795-edcb356d5703",
+    "name": "Pantoprazole Syrup 100ml",
+    "molecule_salt": "Pantoprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 221.29,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "1fa4027c-e210-4a68-a88f-a2f3072c308c",
+    "name": "Pantoprazole 500mg",
+    "molecule_salt": "Pantoprazole",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 356.17,
+    "brand": "Bayer"
+  },
+  {
+    "id": "17c101d9-dbde-44c5-a8c7-b0f86151542a",
+    "name": "Dolo 100mg",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 268.34,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "5b6345ab-ab49-444a-8b8c-2e82c96c831a",
+    "name": "Heartgard Chewable",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1250.42,
+    "brand": "Torrent"
+  },
+  {
+    "id": "c5d2ba46-bc2d-44a4-8394-a84a57b9f7eb",
+    "name": "Ofloxacin 250mg",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 734.27,
+    "brand": "Cipla"
+  },
+  {
+    "id": "1b0b01d5-98ab-4165-b8fc-0133a7bc7532",
+    "name": "Ofloxacin 500mg",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 395.62,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "175cea75-5ff9-4dba-9f0e-b0924837f6d9",
+    "name": "Benadryl Syrup 100ml",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 201.87,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "ebb5b61c-b606-4c69-af6c-250c42295c40",
+    "name": "Rabeprazole Spray",
+    "molecule_salt": "Rabeprazole",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1831.64,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "b68dd9f8-abc1-483f-ad93-bcbe97300858",
+    "name": "Calpol 20mg",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 11.79,
+    "brand": "Cipla"
+  },
+  {
+    "id": "2f3d899a-ad20-464b-a5ad-88b3a75988c8",
+    "name": "Digene 250mg",
+    "molecule_salt": "Digene",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 722.69,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "0994d9cc-abb3-424a-8405-d75889caa6ba",
+    "name": "Heartgard 500mg",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1515.54,
+    "brand": "Lupin"
+  },
+  {
+    "id": "f40f6028-d853-4e93-b751-2c58319ab187",
+    "name": "Ibuprofen 20mg",
+    "molecule_salt": "Ibuprofen",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 633.49,
+    "brand": "Torrent"
+  },
+  {
+    "id": "f35a2d27-474e-4f17-94b7-5c4f327f8fd4",
+    "name": "Bravecto Syrup 100ml",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": false,
+    "price": 168.74,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "4c63872c-68d2-49db-81b9-39ffe8d6b72f",
+    "name": "Gelusil Spray",
+    "molecule_salt": "Gelusil",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 574.21,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "bc0a6702-795f-40ce-bf6a-3f84e4b3d46c",
+    "name": "Cefixime Plus",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 353.86,
+    "brand": "Lupin"
+  },
+  {
+    "id": "fdedf9eb-57ed-4630-aa08-b0c185f63e8d",
+    "name": "Ofloxacin Plus",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 499.23,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "72ddee5e-eaf4-4988-9cae-aea0296cb760",
+    "name": "Bravecto 20mg",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": true,
+    "price": 689.15,
+    "brand": "Lupin"
+  },
+  {
+    "id": "cc337193-4380-4078-a170-ce977f229fea",
+    "name": "Calpol Injection",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 570.37,
+    "brand": "GSK"
+  },
+  {
+    "id": "51d75030-9874-4518-9320-30d5eff23f9f",
+    "name": "Diclofenac 100mg",
+    "molecule_salt": "Diclofenac",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 582.52,
+    "brand": "Cipla"
+  },
+  {
+    "id": "30c681b6-d067-416b-8a1a-d97c23d55f2a",
+    "name": "Diclofenac 250mg",
+    "molecule_salt": "Diclofenac",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 268.54,
+    "brand": "Cipla"
+  },
+  {
+    "id": "ca172782-d7af-4f75-b52e-8d09dbd7820e",
+    "name": "Honitus 100mg",
+    "molecule_salt": "Honitus",
+    "category": "otc",
+    "rx_required": false,
+    "price": 557.76,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "8d4afd59-e4f3-423f-8fd1-b52b83a707cb",
+    "name": "Amoxicillin 40mg",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 488.74,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "8b453c75-65a8-4620-b632-c6db3af10893",
+    "name": "Cefixime 20mg",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 164.61,
+    "brand": "Cipla"
+  },
+  {
+    "id": "de6b07c5-e6ec-491a-b142-cb06baf31e76",
+    "name": "NexGard Plus",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1025.01,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "a0246b64-34bb-40f3-848c-c75c59a2a0b8",
+    "name": "NexGard Ointment 20g",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 2005.36,
+    "brand": "Lupin"
+  },
+  {
+    "id": "17b3488f-cde3-44e7-a5eb-11699a92f6e3",
+    "name": "Cefixime 250mg",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 82.43,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "c9cd4f80-9805-4642-b511-6a7cd4d5bd34",
+    "name": "Amlodipine 40mg",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 480.7,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "d1962326-dbd8-4239-9f29-35de755da055",
+    "name": "NexGard 100mg",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 2175.85,
+    "brand": "Cipla"
+  },
+  {
+    "id": "75baaf36-9343-4c29-b8c3-b8a51be11ace",
+    "name": "Levocetirizine Plus",
+    "molecule_salt": "Levocetirizine",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 679.35,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "9d1b5c47-9ab4-42f5-8c83-b605d399ab94",
+    "name": "Azithromycin 250mg",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 330.58,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "a168f9bc-5223-4cfa-b40a-ff1db9756a40",
+    "name": "Honitus 250mg",
+    "molecule_salt": "Honitus",
+    "category": "otc",
+    "rx_required": false,
+    "price": 648.17,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "408758d5-821a-4302-b489-0666366425f4",
+    "name": "Diclofenac Syrup 100ml",
+    "molecule_salt": "Diclofenac",
+    "category": "otc",
+    "rx_required": false,
+    "price": 737.72,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "850838e7-f5c7-4d8e-bbc7-045ef4036e64",
+    "name": "Paracetamol Spray",
+    "molecule_salt": "Paracetamol",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 187.78,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "d2861d13-80c3-4440-b4ec-5050445b747c",
+    "name": "Bravecto Chewable",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1822.76,
+    "brand": "Mankind"
+  },
+  {
+    "id": "eaca17f6-512e-4dc6-a52d-07a012169144",
+    "name": "Azithromycin 500mg",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 317.61,
+    "brand": "Lupin"
+  },
+  {
+    "id": "7cc19881-37cc-4fe6-a161-c128b98010cc",
+    "name": "Honitus Chewable",
+    "molecule_salt": "Honitus",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 221.6,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "76498421-d173-4a47-9ed6-805b68086cc7",
+    "name": "Dolo Spray",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 82.97,
+    "brand": "Cipla"
+  },
+  {
+    "id": "fb1638f8-084b-4f06-9d52-3956027665ba",
+    "name": "Cefixime Ointment 20g",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 233.46,
+    "brand": "Mankind"
+  },
+  {
+    "id": "8fb4c772-ffd8-4568-823f-774d24d0eed0",
+    "name": "Metformin 500mg",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 561.33,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "dd940e61-99f9-4587-a995-72d7ef4c55ef",
+    "name": "Bravecto 100mg",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": false,
+    "price": 973.05,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "0bb48dfb-3f6e-4a61-b6f9-01b504ff13f1",
+    "name": "Amlodipine 625 Duo",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 557.86,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "c26d0580-7c45-4148-9a81-3cd3b9740bfb",
+    "name": "Drontal 250mg",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1064.66,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "5a5e7579-1d60-4f91-96be-4a1a3ef6d2e9",
+    "name": "Ibuprofen Spray",
+    "molecule_salt": "Ibuprofen",
+    "category": "otc",
+    "rx_required": false,
+    "price": 665.2,
+    "brand": "Mankind"
+  },
+  {
+    "id": "9b69dd13-d02e-4bde-bd2a-c6e6f4a5a969",
+    "name": "Diclofenac Plus",
+    "molecule_salt": "Diclofenac",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 34.08,
+    "brand": "Lupin"
+  },
+  {
+    "id": "7af07108-1f40-42f4-83ba-b41f89cbea2d",
+    "name": "Bravecto Drops 10ml",
+    "molecule_salt": "Bravecto",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1713.69,
+    "brand": "Mankind"
+  },
+  {
+    "id": "1461de74-5688-4439-b713-ede05cef091a",
+    "name": "Dolo Chewable",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 180.38,
+    "brand": "Bayer"
+  },
+  {
+    "id": "fe5e05f1-3351-4aa9-87d9-f798f385f8e1",
+    "name": "Paracetamol Injection",
+    "molecule_salt": "Paracetamol",
+    "category": "vet",
+    "rx_required": false,
+    "price": 2273.02,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "7d25786b-a7b7-407a-8531-01926564bae9",
+    "name": "Metformin Chewable",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 232.11,
+    "brand": "Lupin"
+  },
+  {
+    "id": "ce3bfc64-4710-4c4c-8ad0-5ec662f44e04",
+    "name": "Metformin Syrup 200ml",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 612.06,
+    "brand": "GSK"
+  },
+  {
+    "id": "6e45a43b-e773-4750-8d6e-f776e66263cc",
+    "name": "Drontal 100mg",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1079.06,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "82fbb747-222b-47d5-aae8-85405636cad1",
+    "name": "Corex 500mg",
+    "molecule_salt": "Corex",
+    "category": "otc",
+    "rx_required": false,
+    "price": 742.85,
+    "brand": "Bayer"
+  },
+  {
+    "id": "a1a2caea-f1e5-475a-b633-3911aa35c4c5",
+    "name": "Benadryl Injection",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 284.78,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "c17eb05c-e3cd-4762-a7a4-7c72c7a927a4",
+    "name": "Azithromycin Injection",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 314.97,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "2184621b-53fd-4b92-a62f-ac4a09775c4a",
+    "name": "Gelusil 20mg",
+    "molecule_salt": "Gelusil",
+    "category": "vet",
+    "rx_required": false,
+    "price": 372.81,
+    "brand": "Cipla"
+  },
+  {
+    "id": "21b691f9-a7d9-46db-a642-d5a520ec0d02",
+    "name": "Corex Drops 10ml",
+    "molecule_salt": "Corex",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 297.83,
+    "brand": "Bayer"
+  },
+  {
+    "id": "605ba578-0731-4fcc-8d0d-2f2387cd33f2",
+    "name": "Azithromycin Plus",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 528.33,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "d18dfe51-7038-4fe8-a61b-510e4f5adc63",
+    "name": "Rabeprazole 625 Duo",
+    "molecule_salt": "Rabeprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 319.34,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "d87cd6fc-7cd5-4b6b-a006-534fd79a9185",
+    "name": "Benadryl Plus",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 653.51,
+    "brand": "Bayer"
+  },
+  {
+    "id": "1b72ae8b-85f2-451f-b8d3-468ce5265510",
+    "name": "Benadryl 500mg",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 506.51,
+    "brand": "Torrent"
+  },
+  {
+    "id": "c5548b64-000f-4b0d-ad12-541918aa8ec7",
+    "name": "Corex 250mg",
+    "molecule_salt": "Corex",
+    "category": "vet",
+    "rx_required": false,
+    "price": 2231.56,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "c54103da-ead1-4c7b-81b2-371fb3331a72",
+    "name": "Gelusil 250mg",
+    "molecule_salt": "Gelusil",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 712.12,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "eb8d4efe-ddaa-4a6f-8c96-46f01dfe2bcc",
+    "name": "Calpol 40mg",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 567.65,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "bf82e36e-f12d-45a3-ab28-88f2468efd1c",
+    "name": "Dolo Injection",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 487.96,
+    "brand": "Bayer"
+  },
+  {
+    "id": "07f77231-7a48-4713-9336-7d709f4bc6a9",
+    "name": "Metformin Spray",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 735.19,
+    "brand": "GSK"
+  },
+  {
+    "id": "31ee1760-24d2-492e-b356-d8688afd5c57",
+    "name": "Amlodipine Drops 10ml",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 239.87,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "35f2af43-ef29-4b51-9ca9-6d2150c200fc",
+    "name": "Amoxicillin Syrup 200ml",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 177.12,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "826f0715-a4af-4933-a619-f1a6eac0567f",
+    "name": "Metformin Forte",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 394.17,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "9fe84c9e-144f-4ccf-aa3b-ee6a3d076888",
+    "name": "Benadryl Chewable",
+    "molecule_salt": "Benadryl",
+    "category": "otc",
+    "rx_required": false,
+    "price": 15.96,
+    "brand": "Torrent"
+  },
+  {
+    "id": "def1516a-d2db-471d-83fe-25f8574229eb",
+    "name": "Pantoprazole 625 Duo",
+    "molecule_salt": "Pantoprazole",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 398.7,
+    "brand": "Torrent"
+  },
+  {
+    "id": "df88d0a3-f6cd-47b7-9e4a-c6d62b6a52e3",
+    "name": "Heartgard Ointment 20g",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 817.6,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "90828b3d-200a-4ede-890e-5e0fcdd6c7b0",
+    "name": "Honitus Syrup 200ml",
+    "molecule_salt": "Honitus",
+    "category": "otc",
+    "rx_required": false,
+    "price": 236.35,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "87306268-89d8-4989-b9ac-0e36de0f6f94",
+    "name": "Cefixime 625 Duo",
+    "molecule_salt": "Cefixime",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 266.14,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "166ab739-839e-42fa-895a-3d0c788913a5",
+    "name": "Digene Syrup 200ml",
+    "molecule_salt": "Digene",
+    "category": "otc",
+    "rx_required": false,
+    "price": 33.85,
+    "brand": "Mankind"
+  },
+  {
+    "id": "5cb973ad-b72b-4bff-9cfc-2a5170f0b2fc",
+    "name": "Dolo Syrup 200ml",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 492.55,
+    "brand": "Patanjali"
+  },
+  {
+    "id": "6c248128-a72a-4680-b420-edee33fe605a",
+    "name": "NexGard Syrup 200ml",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 738.69,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "ff02568b-c643-46f5-ae4f-d46faa68a988",
+    "name": "Ibuprofen Forte",
+    "molecule_salt": "Ibuprofen",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 719.88,
+    "brand": "GSK"
+  },
+  {
+    "id": "508f95ef-db71-4b5b-8bbe-eaa8e92c8e9a",
+    "name": "Ibuprofen Syrup 200ml",
+    "molecule_salt": "Ibuprofen",
+    "category": "otc",
+    "rx_required": false,
+    "price": 491.04,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "38317683-b7bd-4bed-9737-fc656e395d7d",
+    "name": "Amlodipine Spray",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 412.67,
+    "brand": "Cipla"
+  },
+  {
+    "id": "b095c6f9-dde6-4e02-9e18-581f8d258084",
+    "name": "Corex 20mg",
+    "molecule_salt": "Corex",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 408.5,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "920ca5b5-ab67-4dfe-951c-7db4efb1be2e",
+    "name": "Heartgard Drops 10ml",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1029.58,
+    "brand": "Mankind"
+  },
+  {
+    "id": "6d8ce186-c5e0-42d7-8ade-b977e7d860bb",
+    "name": "Corex Injection",
+    "molecule_salt": "Corex",
+    "category": "vet",
+    "rx_required": false,
+    "price": 940.43,
+    "brand": "Cipla"
+  },
+  {
+    "id": "6f517b01-138a-4175-abcd-2730f82cbcb9",
+    "name": "Azithromycin Syrup 100ml",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 582.37,
+    "brand": "Torrent"
+  },
+  {
+    "id": "355bb108-2f45-4d5f-a7b8-33e7ce668e3a",
+    "name": "NexGard Injection",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1215.77,
+    "brand": "Cipla"
+  },
+  {
+    "id": "928fa1ee-a83d-42ea-be0a-26f1f5de46f3",
+    "name": "Amoxicillin 20mg",
+    "molecule_salt": "Amoxicillin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 55.84,
+    "brand": "Cipla"
+  },
+  {
+    "id": "9497cd84-6a64-43c2-8197-2ed916676c08",
+    "name": "Honitus Spray",
+    "molecule_salt": "Honitus",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 247.55,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "d100d767-f67d-43e9-b657-bb3fea794bca",
+    "name": "Drontal Syrup 100ml",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 520.15,
+    "brand": "Abbott"
+  },
+  {
+    "id": "aa00de23-fb3b-4664-8ecb-3cda7df84252",
+    "name": "Amlodipine Chewable",
+    "molecule_salt": "Amlodipine",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 488.67,
+    "brand": "Abbott"
+  },
+  {
+    "id": "6a9b8e75-1925-4960-bd99-59555bd4892c",
+    "name": "Rabeprazole 250mg",
+    "molecule_salt": "Rabeprazole",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 405.17,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "064fbb6d-b29d-43b5-9a89-c37ebb008952",
+    "name": "Paracetamol Chewable",
+    "molecule_salt": "Paracetamol",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 796.13,
+    "brand": "Abbott"
+  },
+  {
+    "id": "76c537b1-4167-47ca-8072-ab74be2f104b",
+    "name": "Drontal 500mg",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": false,
+    "price": 966.08,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "947b1567-c937-4d53-b3eb-46c5c32cdcc0",
+    "name": "Ofloxacin Chewable",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 221.2,
+    "brand": "Abbott"
+  },
+  {
+    "id": "c8422a98-7c2c-44bb-aa13-f3a00d85e271",
+    "name": "Calpol 250mg",
+    "molecule_salt": "Calpol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 246.35,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "3f23b988-af3f-4f5f-940c-7ac05b2630cf",
+    "name": "Paracetamol 40mg",
+    "molecule_salt": "Paracetamol",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 407.76,
+    "brand": "Lupin"
+  },
+  {
+    "id": "bbe95c46-5b74-4eda-a0bd-0623c607ae75",
+    "name": "Levocetirizine 40mg",
+    "molecule_salt": "Levocetirizine",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 724.65,
+    "brand": "Abbott"
+  },
+  {
+    "id": "248f2af8-ff24-40a4-b1d5-e31507d536af",
+    "name": "Rabeprazole 100mg",
+    "molecule_salt": "Rabeprazole",
+    "category": "vet",
+    "rx_required": false,
+    "price": 680.47,
+    "brand": "Lupin"
+  },
+  {
+    "id": "36af122c-f199-441f-b4c6-1b1af6fc27c8",
+    "name": "Metformin 20mg",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 290.2,
+    "brand": "Torrent"
+  },
+  {
+    "id": "9e4af5ca-1e8f-49a2-9f84-331a5b9f7fbe",
+    "name": "Pantoprazole Forte",
+    "molecule_salt": "Pantoprazole",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1379.43,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "1d244781-5343-4cad-8760-d225fe600c20",
+    "name": "Azithromycin 625 Duo",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 423.86,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "585dcd47-2512-49bf-8387-2b289889cf34",
+    "name": "Paracetamol 625 Duo",
+    "molecule_salt": "Paracetamol",
+    "category": "otc",
+    "rx_required": false,
+    "price": 641.71,
+    "brand": "Mankind"
+  },
+  {
+    "id": "ae769ff6-f805-42a3-88f2-ac9bea7785f2",
+    "name": "Rabeprazole Ointment 20g",
+    "molecule_salt": "Rabeprazole",
+    "category": "otc",
+    "rx_required": false,
+    "price": 523.7,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "7ae2b4d1-90a3-42d7-8db9-de20c9b2bc40",
+    "name": "Ibuprofen Drops 10ml",
+    "molecule_salt": "Ibuprofen",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 139.39,
+    "brand": "Himalaya"
+  },
+  {
+    "id": "14bf3389-396a-46c4-b89f-dbca7fdf2048",
+    "name": "NexGard 250mg",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 2297.1,
+    "brand": "Cipla"
+  },
+  {
+    "id": "5f468907-1fed-493a-a05f-5d37ba400e0c",
+    "name": "Gelusil 625 Duo",
+    "molecule_salt": "Gelusil",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1122.93,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": "6e25e227-759d-4232-81dc-f04105486611",
+    "name": "Drontal 20mg",
+    "molecule_salt": "Drontal",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1530.41,
+    "brand": "Cipla"
+  },
+  {
+    "id": "6c6b7dfa-842b-43ec-bdb9-00652b928962",
+    "name": "Corex Forte",
+    "molecule_salt": "Corex",
+    "category": "chronic",
+    "rx_required": false,
+    "price": 610.26,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "0f41b5dd-d31a-48c0-9ec6-c7fb97619aeb",
+    "name": "Ofloxacin Ointment 20g",
+    "molecule_salt": "Ofloxacin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 746.14,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "aad33a5c-d37a-4bd8-ab59-82bd47fed72c",
+    "name": "Azithromycin 20mg",
+    "molecule_salt": "Azithromycin",
+    "category": "antibiotics",
+    "rx_required": true,
+    "price": 392.8,
+    "brand": "Cipla"
+  },
+  {
+    "id": "c45129f6-018a-4311-9f29-424233369c4f",
+    "name": "Diclofenac 40mg",
+    "molecule_salt": "Diclofenac",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 45.2,
+    "brand": "GSK"
+  },
+  {
+    "id": "41ccbe7c-4f31-49c0-8035-139f01eb009a",
+    "name": "Levocetirizine Forte",
+    "molecule_salt": "Levocetirizine",
+    "category": "otc",
+    "rx_required": false,
+    "price": 507.02,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "8abc5211-347f-4c94-9856-39151ba009c3",
+    "name": "Digene 100mg",
+    "molecule_salt": "Digene",
+    "category": "otc",
+    "rx_required": false,
+    "price": 501.34,
+    "brand": "Abbott"
+  },
+  {
+    "id": "44b79085-74a8-48e6-9a42-842f61f32817",
+    "name": "Heartgard 20mg",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 1577.19,
+    "brand": "Mankind"
+  },
+  {
+    "id": "f283b354-0e8d-446a-b8a5-358282ce8d0d",
+    "name": "Levocetirizine Chewable",
+    "molecule_salt": "Levocetirizine",
+    "category": "vet",
+    "rx_required": false,
+    "price": 329.9,
+    "brand": "Pfizer"
+  },
+  {
+    "id": "f277dde4-b1a8-4a79-b6d9-6fec6ceccbc3",
+    "name": "Metformin Drops 10ml",
+    "molecule_salt": "Metformin",
+    "category": "chronic",
+    "rx_required": true,
+    "price": 560.05,
+    "brand": "Zoetis"
+  },
+  {
+    "id": "496700a0-9cbb-4b17-a8c5-7b9a0f692259",
+    "name": "Heartgard 100mg",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 504.02,
+    "brand": "Mankind"
+  },
+  {
+    "id": "0adbfdf8-5b3a-429d-b1b5-c88deeec62cb",
+    "name": "Dolo 625 Duo",
+    "molecule_salt": "Dolo",
+    "category": "otc",
+    "rx_required": false,
+    "price": 38.67,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "0da3c3e1-7623-4497-80ed-6092a22c714f",
+    "name": "Honitus Ointment 20g",
+    "molecule_salt": "Honitus",
+    "category": "antibiotics",
+    "rx_required": false,
+    "price": 684.19,
+    "brand": "Cipla"
+  },
+  {
+    "id": "8f04e51d-8da0-45bf-9a8a-c0b4d1d24c9b",
+    "name": "Heartgard 250mg",
+    "molecule_salt": "Heartgard",
+    "category": "vet",
+    "rx_required": false,
+    "price": 916.26,
+    "brand": "Dr. Reddys"
+  },
+  {
+    "id": "d9fc6fb4-c86b-4481-83f8-1bff78b361c4",
+    "name": "Diclofenac Ointment 20g",
+    "molecule_salt": "Diclofenac",
+    "category": "allergies",
+    "rx_required": false,
+    "price": 784.27,
+    "brand": "Cipla"
+  },
+  {
+    "id": "1c40b41f-3307-4991-9b02-5ac612921465",
+    "name": "NexGard Drops 10ml",
+    "molecule_salt": "NexGard",
+    "category": "vet",
+    "rx_required": true,
+    "price": 1792.08,
+    "brand": "Sun Pharma"
+  }
+]

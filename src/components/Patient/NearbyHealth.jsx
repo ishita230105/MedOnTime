@@ -1,84 +1,104 @@
 import React, { useState } from 'react';
-import { ArrowLeft, MapPin, Star, Phone, Navigation, ShieldCheck } from 'lucide-react';
+import { ArrowLeft, MapPin, Star, Phone, Clock, Video, Building2, UserCircle2 } from 'lucide-react';
+import regionalData from '../../data/regionalDB.json';
+import { useStore } from '../../store/useStore';
 
 export default function NearbyHealth({ navigateTo }) {
-  const [filter, setFilter] = useState('all');
+  const [activeTab, setActiveTab] = useState('doctors');
+  const { setSelectedDoctor } = useStore();
 
-  const places = [
-    { id: 1, name: 'Dr. Rakesh Patel (Cardiologist)', type: 'doctor', rating: 4.9, reviews: 342, dist: '0.8 km', status: 'Available Now' },
-    { id: 2, name: 'City Care Multi-Specialty Hospital', type: 'hospital', rating: 4.7, reviews: 1205, dist: '1.2 km', status: '24/7 ER Open' },
-    { id: 3, name: 'Paws & Tails Vet Clinic', type: 'vet', rating: 4.8, reviews: 412, dist: '2.1 km', status: 'Available Now' },
-    { id: 4, name: 'Dr. Smita Rao (Pediatrician)', type: 'doctor', rating: 4.9, reviews: 890, dist: '2.5 km', status: 'Available at 4 PM' },
-    { id: 5, name: 'Happy Pets Vet Hospital', type: 'vet', rating: 4.6, reviews: 200, dist: '3.0 km', status: 'Emergency Only' }
-  ];
-
-  const filteredPlaces = filter === 'all' ? places : places.filter(p => p.type === filter);
+  const handleConsult = (doctor) => {
+    setSelectedDoctor(doctor);
+    if (doctor.isVet) {
+      navigateTo('telehealth_vet');
+    } else {
+      navigateTo('telehealth');
+    }
+  };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col max-w-md mx-auto">
-      <div className="bg-white p-4 flex items-center shadow-sm sticky top-0 z-10 border-b border-slate-100">
-        <button onClick={() => navigateTo('dashboard')} className="mr-4 text-slate-600">
-          <ArrowLeft size={24} />
-        </button>
-        <div>
-          <h1 className="text-xl font-bold text-slate-800">Nearby Health & Vets</h1>
-          <p className="text-xs text-slate-500 flex items-center"><MapPin size={12} className="mr-1"/> Detecting your location...</p>
+    <div className="bg-slate-50 min-h-screen pb-24">
+      {/* Header */}
+      <div className="bg-emerald-600 text-white p-4 sticky top-0 z-50">
+        <div className="flex items-center gap-3">
+          <button onClick={() => navigateTo('dashboard')} className="p-2 -ml-2 rounded-full hover:bg-emerald-700 transition">
+            <ArrowLeft size={24} />
+          </button>
+          <h1 className="text-xl font-bold">Agra & Firozabad Health</h1>
         </div>
       </div>
 
-      <div className="p-4">
-        {/* Filters */}
-        <div className="flex space-x-2 overflow-x-auto pb-2 mb-4">
-          {['all', 'hospital', 'doctor', 'vet'].map(f => (
-            <button 
-              key={f} 
-              onClick={() => setFilter(f)}
-              className={`px-4 py-2 rounded-full text-sm font-bold whitespace-nowrap capitalize transition ${filter === f ? 'bg-emerald-600 text-white shadow-md' : 'bg-white text-slate-600 border border-slate-200'}`}
-            >
-              {f === 'all' ? 'All Nearby' : `${f}s`}
-            </button>
-          ))}
-        </div>
+      {/* Tabs */}
+      <div className="flex bg-white border-b border-slate-200">
+        <button 
+          onClick={() => setActiveTab('doctors')}
+          className={`flex-1 py-4 text-center font-bold ${activeTab === 'doctors' ? 'text-emerald-600 border-b-2 border-emerald-600' : 'text-slate-500'}`}
+        >
+          <div className="flex items-center justify-center gap-2"><UserCircle2 size={18}/> Doctors</div>
+        </button>
+        <button 
+          onClick={() => setActiveTab('hospitals')}
+          className={`flex-1 py-4 text-center font-bold ${activeTab === 'hospitals' ? 'text-emerald-600 border-b-2 border-emerald-600' : 'text-slate-500'}`}
+        >
+          <div className="flex items-center justify-center gap-2"><Building2 size={18}/> Hospitals</div>
+        </button>
+      </div>
 
-        {/* List */}
-        <div className="space-y-4 pb-10">
-          {filteredPlaces.map(place => (
-            <div key={place.id} className="bg-white rounded-xl shadow-sm border border-slate-100 p-4">
-              <div className="flex justify-between items-start mb-2">
-                <h3 className="font-bold text-slate-800 pr-4">{place.name}</h3>
-                <span className={`text-[10px] font-bold px-2 py-1 rounded uppercase ${place.type === 'vet' ? 'bg-orange-100 text-orange-700' : 'bg-blue-100 text-blue-700'}`}>
-                  {place.type}
-                </span>
-              </div>
-              
-              <div className="flex items-center space-x-4 text-sm text-slate-500 mb-4">
-                <div className="flex items-center text-amber-500 font-bold">
-                  <Star size={14} className="fill-amber-500 mr-1"/> {place.rating} <span className="text-slate-400 font-normal ml-1">({place.reviews})</span>
+      {/* Content */}
+      <div className="p-4 space-y-4">
+        {activeTab === 'doctors' ? (
+          regionalData.doctors.map((doc) => (
+            <div key={doc.id} className="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 flex flex-col gap-3">
+              <div className="flex justify-between items-start">
+                <div>
+                  <h3 className="font-bold text-slate-800 text-lg">{doc.name}</h3>
+                  <p className="text-emerald-600 font-medium text-sm">{doc.specialty}</p>
                 </div>
-                <div className="flex items-center">
-                  <Navigation size={14} className="mr-1 text-slate-400" /> {place.dist}
+                <div className="flex items-center bg-yellow-50 px-2 py-1 rounded text-yellow-700 text-sm font-bold">
+                  <Star size={14} className="mr-1 fill-yellow-500" /> {doc.rating}
                 </div>
               </div>
               
-              <div className="flex items-center space-x-2 mb-4 text-sm">
-                <ShieldCheck size={16} className="text-emerald-500"/>
-                <span className="text-emerald-600 font-semibold">{place.status}</span>
+              <div className="flex items-center text-slate-500 text-sm gap-1">
+                <MapPin size={14} /> {doc.hospital}
+              </div>
+              <div className="flex items-center text-slate-500 text-sm gap-1">
+                <Clock size={14} /> {doc.experience} Experience
               </div>
 
-              <div className="grid grid-cols-2 gap-2">
+              <div className="flex items-center justify-between mt-2 pt-3 border-t border-slate-100">
+                <span className="font-black text-slate-800">₹{doc.fee} <span className="text-xs font-normal text-slate-500">/ consult</span></span>
                 <button 
-                  onClick={() => place.type === 'vet' ? navigateTo('telehealth_vet') : navigateTo('telehealth')}
-                  className="flex items-center justify-center py-2 bg-slate-100 text-slate-700 rounded-lg font-bold text-sm hover:bg-slate-200"
+                  onClick={() => handleConsult(doc)}
+                  className="bg-emerald-600 text-white px-4 py-2 rounded-xl font-bold flex items-center gap-2 hover:bg-emerald-700 transition"
                 >
-                  <Phone size={14} className="mr-2" /> Book Consult
-                </button>
-                <button className="flex items-center justify-center py-2 bg-emerald-50 text-emerald-700 rounded-lg font-bold text-sm hover:bg-emerald-100 border border-emerald-200">
-                  <Navigation size={14} className="mr-2" /> Directions
+                  <Video size={16} /> Consult Now
                 </button>
               </div>
             </div>
-          ))}
-        </div>
+          ))
+        ) : (
+          regionalData.hospitals.map((hosp) => (
+            <div key={hosp.id} className="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 flex flex-col gap-2">
+              <div className="flex justify-between items-start">
+                <h3 className="font-bold text-slate-800 text-lg">{hosp.name}</h3>
+                <div className="flex items-center bg-yellow-50 px-2 py-1 rounded text-yellow-700 text-sm font-bold">
+                  <Star size={14} className="mr-1 fill-yellow-500" /> {hosp.rating}
+                </div>
+              </div>
+              <p className="text-emerald-600 font-medium text-sm">{hosp.type}</p>
+              
+              <div className="flex justify-between text-slate-500 text-sm mt-2">
+                <div className="flex items-center gap-1"><MapPin size={14} /> {hosp.location}</div>
+                <div className="font-bold text-slate-400">{hosp.distance}</div>
+              </div>
+
+              <button className="w-full mt-3 bg-slate-100 text-slate-700 py-2 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-slate-200 transition">
+                <Phone size={16} /> Contact Hospital
+              </button>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );
