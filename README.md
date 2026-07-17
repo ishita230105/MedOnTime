@@ -1,12 +1,12 @@
-# MediBlink: Ultra-Fast Healthcare Delivery Network
+# MedOnTime: Ultra-Fast Healthcare Delivery Network
 
-MediBlink is a comprehensive, ultra-fast healthcare delivery and telehealth platform. Designed with a micro-fulfillment (dark store) architecture, the platform enables rapid 10-20 minute delivery of medicines and healthcare essentials, alongside integrated telehealth consultations.
+MedOnTime is a comprehensive, ultra-fast healthcare delivery and telehealth platform. Designed with a micro-fulfillment (dark store) architecture, the platform enables rapid 10-20 minute delivery of medicines and healthcare essentials, alongside integrated telehealth consultations.
 
 ## Project Overview
 
 The healthcare supply chain often suffers from significant delays. MediBlink solves this by bridging the gap between local pharmacies, delivery riders, and patients. It acts as an end-to-end ecosystem where a patient can consult a doctor via video call, upload a prescription, and receive their medication almost instantly.
 
-The platform is regionally localized (currently tailored for Agra and Firozabad) and supports an extensive catalog of over 500+ SKUs across Over-The-Counter (OTC), Chronic Care, Antibiotics, and Veterinary medicines.
+The platform is regionally localized and supports an extensive catalog of over 500+ SKUs across Over-The-Counter (OTC), Chronic Care, Antibiotics, and Veterinary medicines.
 
 ## Core Modules
 
