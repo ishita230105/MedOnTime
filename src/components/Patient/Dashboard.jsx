@@ -3,7 +3,7 @@ import { Search, MapPin, Clock, ShoppingCart, Video, PhoneCall, Camera } from 'l
 import { useStore } from '../../store/useStore';
 
 export default function Dashboard({ navigateTo }) {
-  const { cartTotal, cart, medicines, fetchMedicines, initializeRealtime, fetchOrders } = useStore();
+  const { cartTotal, cart, medicines, fetchMedicines, initializeRealtime, fetchOrders, deliveryAddress, setDeliveryAddress } = useStore();
   const [activeCategory, setActiveCategory] = React.useState('all');
   const [searchQuery, setSearchQuery] = React.useState('');
 
@@ -38,11 +38,17 @@ export default function Dashboard({ navigateTo }) {
       {/* Header & Geolocation */}
       <div className="bg-emerald-600 text-white p-4 rounded-b-2xl shadow-md sticky top-0 z-10">
         <div className="flex justify-between items-center mb-4">
-          <div className="flex items-center space-x-2">
+          <div 
+            className="flex items-center space-x-2 cursor-pointer hover:bg-emerald-700 p-2 -ml-2 rounded-xl transition"
+            onClick={() => {
+              const newAddress = window.prompt("Enter your delivery address:", deliveryAddress);
+              if (newAddress && newAddress.trim()) setDeliveryAddress(newAddress.trim());
+            }}
+          >
             <MapPin size={20} />
             <div>
-              <p className="text-xs text-emerald-100 uppercase font-semibold">Delivering to</p>
-              <h2 className="text-sm font-bold truncate w-48">Home - 123 Health Ave, Mumbai</h2>
+              <p className="text-xs text-emerald-100 uppercase font-semibold">Delivering to <span className="text-[10px] lowercase bg-emerald-500 px-1 rounded">(Tap to change)</span></p>
+              <h2 className="text-sm font-bold truncate w-48">{deliveryAddress}</h2>
             </div>
           </div>
           <button onClick={() => navigateTo('cart')} className="relative p-2 bg-emerald-700 rounded-full hover:bg-emerald-800 transition">

@@ -62,7 +62,7 @@ export default function RiderApp() {
                   </div>
                   <div>
                     <h4 className="font-bold text-sm text-slate-800">Customer Location</h4>
-                    <p className="text-xs text-slate-500">123 Health Ave, Mumbai</p>
+                    <p className="text-xs text-slate-500">{order.delivery_address || '123 Health Ave, Mumbai'}</p>
                   </div>
                 </div>
                 

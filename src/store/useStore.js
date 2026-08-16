@@ -9,6 +9,8 @@ export const useStore = create((set, get) => ({
   setUserRole: (role) => set({ userRole: role }),
   selectedDoctor: null,
   setSelectedDoctor: (doctor) => set({ selectedDoctor: doctor }),
+  deliveryAddress: 'Home - 123 Health Ave, Mumbai',
+  setDeliveryAddress: (address) => set({ deliveryAddress: address }),
 
   // Real Data
   medicines: [],
@@ -78,7 +80,8 @@ export const useStore = create((set, get) => ({
         total_amount: cartTotal(),
         status: 'pending',
         items: cart,
-        rx_file_url: rxFileUrl
+        rx_file_url: rxFileUrl,
+        delivery_address: get().deliveryAddress
       };
 
       const { data, error } = await supabase.from('orders').insert(newOrder).select().single();
