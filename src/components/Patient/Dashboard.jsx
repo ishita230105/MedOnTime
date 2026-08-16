@@ -1,11 +1,13 @@
 import React, { useEffect } from 'react';
 import { Search, MapPin, Clock, ShoppingCart, Video, PhoneCall, Camera } from 'lucide-react';
 import { useStore } from '../../store/useStore';
+import LocationModal from './LocationModal';
 
 export default function Dashboard({ navigateTo }) {
   const { cartTotal, cart, medicines, fetchMedicines, initializeRealtime, fetchOrders, deliveryAddress, setDeliveryAddress } = useStore();
   const [activeCategory, setActiveCategory] = React.useState('all');
   const [searchQuery, setSearchQuery] = React.useState('');
+  const [showLocationModal, setShowLocationModal] = React.useState(false);
 
   useEffect(() => {
     try {
@@ -40,10 +42,7 @@ export default function Dashboard({ navigateTo }) {
         <div className="flex justify-between items-center mb-4">
           <div 
             className="flex items-center space-x-2 cursor-pointer hover:bg-emerald-700 p-2 -ml-2 rounded-xl transition"
-            onClick={() => {
-              const newAddress = window.prompt("Enter your delivery address:", deliveryAddress);
-              if (newAddress && newAddress.trim()) setDeliveryAddress(newAddress.trim());
-            }}
+            onClick={() => setShowLocationModal(true)}
           >
             <MapPin size={20} />
             <div>
@@ -181,6 +180,9 @@ export default function Dashboard({ navigateTo }) {
           )))}
         </div>
       </div>
+      
+      {/* Modals */}
+      <LocationModal isOpen={showLocationModal} onClose={() => setShowLocationModal(false)} />
     </div>
   );
 }
